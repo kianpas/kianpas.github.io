@@ -32,7 +32,7 @@ export default {
           imgSrc: require("../../assets/photo-2.jpg"),
           level: "Mid-Level",
           content:
-            " 신뢰감을 주는 중견 개발자로서 성장하여 회사에는 업무를 믿고 맡길 수 있는, 동료에게는 같이 일하고 싶은 개발자로 성장하고 싶습니다. 또한  기존의 익숙했던 언어, 도구를 넘어 새로운 것도 나의 것으로 만들고 자신만의 프로그램을 만들 수 있는 단계에 오르고 싶습니다.",
+            "중견 개발자로서 성장하여 회사에는 업무를 믿고 맡길 수 있는, 동료에게는 같이 일하고 싶은 개발자로 성장하고 싶습니다. 또한  기존의 익숙했던 언어, 도구를 넘어 새로운 것도 나의 것으로 만들고 자신만의 프로그램을 만들 수 있는 단계에 오르고 싶습니다.",
         },
         {
           id: "3r",
@@ -62,5 +62,10 @@ export default {
   display: flex;
   width: 70%;
   justify-content: space-around;
+  align-items: center;
+  // flex-wrap: wrap;
+  @media (max-width: 820px) {
+    flex-direction: column;
+  }
 }
 </style>

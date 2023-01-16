@@ -18,7 +18,7 @@ export default {};
   align-items: center;
   justify-content: center;
   height: 80%;
-  /* margin-left: 50px; */
+
   article {
     display: flex;
     flex-direction: column;

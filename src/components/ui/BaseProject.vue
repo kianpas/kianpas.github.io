@@ -21,12 +21,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.project-cover {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: rgba(30, 30, 38, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
 .item {
-  /* height: 50%;
-  width: 50%; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -34,22 +42,6 @@ export default {
   height: 130px;
   width: 250px;
   margin: 10px;
-}
-
-.projects {
-  display: flex;
-  justify-content: center;
-}
-
-.project-cover {
-  display: flex;
-  justify-content: center;
-  height: 300px;
-  margin: 0 20px;
-  padding: 10px;
-  background-color: rgba(30, 30, 38, 0.9);
-  border-radius: 10px;
-  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
 
 .item p {

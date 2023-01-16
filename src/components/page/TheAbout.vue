@@ -1,6 +1,6 @@
 <template>
   <section class="introduce">
-    <div class="pic"></div>
+    <!-- <div class="pic"></div> -->
     <article>
       <div class="about">
         <h1>ABOUT ME</h1>
@@ -118,6 +118,11 @@ export default {};
     display: flex;
     margin: 30px auto;
     justify-content: space-evenly;
+    @media (max-width: 820px) {
+      flex-wrap: wrap;
+      min-width: 50px;
+      justify-content: center;
+    }
 
     .icon {
       margin: 0 10px;
