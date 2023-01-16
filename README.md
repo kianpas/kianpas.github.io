@@ -18,6 +18,9 @@ Vue를 사용한 개인 홈페이지 제작
 ### 개발 언어
 HTML, CSS, JavaScript
 
+### 개발 프레임워크
+Vue.js
+
 ### 개발툴
 VS Code
 
