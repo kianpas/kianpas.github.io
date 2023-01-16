@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkkianpas_github_io"]=self["webpackChunkkianpas_github_io"]||[]).push([[287],{3287:function(n,t,e){e.r(t),e.d(t,{default:function(){return c}});var s=function(){var n=this;n._self._c;return n._m(0)},a=[function(){var n=this,t=n._self._c;return t("section",{staticClass:"home"},[t("article",[t("h1",[t("span",[n._v("Hello!")])]),t("h2",[t("span",[n._v("I'm Lee Un San")])]),t("p",[n._v("안녕하세요! 제 홈페이지에 오신걸 환영합니다!")])])])}],i={},u=i,l=e(3736),r=(0,l.Z)(u,s,a,!1,null,"036d6094",null),c=r.exports}}]);
+//# sourceMappingURL=287.38322a08.js.map
